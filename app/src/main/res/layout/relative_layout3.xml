@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:background="#C3B1B1">
+
+    </View>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/view1"
+        android:background="#682F2F">
+
+    </View>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/view1"
+        android:layout_alignParentLeft="true">
+
+    </View>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/view1"
+        android:layout_toRightOf="@id/view"
+        android:background="@color/black">
+
+    </View>
+    <View
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/view3"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/view3"
+        android:background="#83ACA8">
+
+    </View>
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:layout_toRightOf="@id/view4"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/view3"
+        android:background="#420606"
+        >
+
+    </View>
+    <View
+        android:id="@+id/view6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/view4"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/view4"
+        android:layout_alignParentBottom="true"
+        android:background="#C3B9B9"
+
+        >
+
+    </View>
+</RelativeLayout>
